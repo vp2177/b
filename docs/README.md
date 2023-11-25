@@ -1,7 +1,0 @@
-<!--
-
-# `matches`
-# `replace`
-# `uninstall`
-
--->
