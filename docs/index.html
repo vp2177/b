@@ -4,12 +4,19 @@
     <link rel="stylesheet" href="base.css" title="Default" />
     <link rel="alternate stylesheet" href="metro.css" title="METRO" />
     <link rel="icon" href="E055_color.png" />
+    <title>Demo</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "preact-custom-element": "//esm.run/preact-custom-element@__"
+            }
+        }
+    </script>
     <script defer src="entry.mjs" type="module"></script>
-    <!-- preact-custom-element --> 
 </head>
 <body>
     <article class="content">
-    <div id="noise" class="placeholder noise" style="height: 30vh"></div>
+    <div class="placeholder noise" style="height: 35vh"></div>
     <table id="table" class="excel">
         <tr>
             <th>Vendor</th>
@@ -36,7 +43,12 @@
             <td>Ubuntu</td>
             <td>apt</td>
         </tr>
+        <tr>
+            <td>Red Hat</td>
+            <td>RHEL</td>
+            <td>dnf</td>
+        </tr>
     </table>
-    <div class="placeholder" style="height: 75vh"></div>
+    <div class="placeholder" style="height: 110vh"></div>
     </article>
 </body>
