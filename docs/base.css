@@ -14,6 +14,11 @@
     border-radius: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
+    color: grey;
+
+    &::before {
+        content: "Lorem ipsum";
+    }
 }
 
 .excel {
@@ -24,8 +29,8 @@
         position: sticky;
         top: 0;
         background-color: lightgray;
-        border: 1px solid slategray;
-        border-top-width: 0;
+        border-right: 1px solid grey;
+        box-shadow: -1px -1px magenta inset;
     }
     td {
         border: 1px solid lightgray;
