@@ -11,9 +11,9 @@
 
 .placeholder {
     background-image: linear-gradient(to right, lightgrey, transparent);
-    animation-name: loading1;
-    animation-duration: 3s;
     border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .excel {
@@ -24,13 +24,10 @@
         position: sticky;
         top: 0;
         background-color: lightgray;
-        border-color: slategray;
-        border-right-width: 1px;
-        border-bottom-width: 1px;
-        _min-width: 15em;
+        border: 1px solid slategray;
+        border-top-width: 0;
     }
     td {
-        border-color: lightgray;
-        border-width: 1px;
+        border: 1px solid lightgray;
     }
 }
