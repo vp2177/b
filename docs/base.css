@@ -12,9 +12,10 @@
 .placeholder {
     background-image: linear-gradient(to right, lightgrey, transparent);
     border-radius: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 1em;
+    margin-top: 1em;
     color: grey;
+    padding: 1em;
 
     &::before {
         content: "Lorem ipsum";
@@ -29,10 +30,12 @@
         position: sticky;
         top: 0;
         background-color: lightgray;
-        border-right: 1px solid grey;
-        box-shadow: -1px -1px magenta inset;
+        /* border-right: */
+        box-shadow: -1px gray inset;
+        padding-right: 2em;
     }
     td {
         border: 1px solid lightgray;
+        padding-right: 2em;
     }
 }
