@@ -1,0 +1,18 @@
+.__content {
+    margin-inline-start: 30em;
+    margin-inline-end: 30em;
+}
+
+.__placeholder {
+    background-color: violet;
+    display: inline-block;
+}
+
+.__excel {
+    th {
+        position: sticky;
+    }
+    tr:nth-of-type(even) {
+        background-color: gainsboro;
+    }
+}
