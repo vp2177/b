@@ -1,0 +1,10 @@
+name: Test
+on: [push]
+
+jobs:
+  Formatting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npx prettier -c .
+    
