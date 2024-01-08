@@ -1,19 +1,23 @@
 .content {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .placeholder {
-    background-image: linear-gradient(to right, lightgrey, transparent);
-    border-radius: 2px;
+    background-image: linear-gradient(to bottom right, lightgrey, transparent);
+    border-radius: 5px;
 }
 
 .excel {
+    border-spacing: 0;
+
     th {
         position: sticky;
         top: 0;
         background-color: lightgray;
-        border-style: outset;
+        border: 0 0 1px 1px solid slategray;
     }
-    /* TODO: borders */
+    td {
+        border: 1px solid slategrey;
+    }
 }
