@@ -31,8 +31,7 @@
         top: 0;
         background-color: lightgray;
         /* border-right: */
-        box-shadow: -1px gray inset;
-        padding-right: 2em;
+        box-shadow: -1px 0 gray inset;
     }
     td {
         border: 1px solid lightgray;
