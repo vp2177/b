@@ -3,21 +3,34 @@
     margin-right: 15vw;
 }
 
+@keyframes loading1 {
+    100% {
+        background-position-x: 100%;
+    }
+}
+
 .placeholder {
-    background-image: linear-gradient(to bottom right, lightgrey, transparent);
+    background-image: linear-gradient(to right, lightgrey, transparent);
+    animation-name: loading1;
+    animation-duration: 3s;
     border-radius: 5px;
 }
 
 .excel {
     border-spacing: 0;
+    border-collapse: collapse;
 
     th {
         position: sticky;
         top: 0;
         background-color: lightgray;
-        border: 0 0 1px 1px solid slategray;
+        border-color: slategray;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        _min-width: 15em;
     }
     td {
-        border: 1px solid slategrey;
+        border-color: lightgray;
+        border-width: 1px;
     }
 }
