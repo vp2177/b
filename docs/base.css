@@ -1,18 +1,19 @@
-.__content {
-    margin-inline-start: 30em;
-    margin-inline-end: 30em;
+.content {
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
-.__placeholder {
-    background-color: violet;
-    display: inline-block;
+.placeholder {
+    background-image: linear-gradient(to right, lightgrey, transparent);
+    border-radius: 2px;
 }
 
-.__excel {
+.excel {
     th {
         position: sticky;
+        top: 0;
+        background-color: lightgray;
+        border-style: outset;
     }
-    tr:nth-of-type(even) {
-        background-color: gainsboro;
-    }
+    /* TODO: borders */
 }
